@@ -1,5 +1,5 @@
 {
-    "name": "yang/upload-test",
+    "name": "yangs/upload-test",
     "autoload": {
         "psr-4": {
             "Yang\\UploadTest\\": "src/"
@@ -7,8 +7,8 @@
     },
     "authors": [
         {
-            "name": "yanghuan",
-            "email": "yang@xway.cn"
+            "name": "yanghuans",
+            "email": "yangs@xway.cn"
         }
     ],
     "require": {
