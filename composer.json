@@ -1,0 +1,27 @@
+{
+    "name": "yang/upload-test",
+    "autoload": {
+        "psr-4": {
+            "Yang\\UploadTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yanghuan",
+            "email": "yang@xway.cn"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yang\\UploadTest\\Providers\\CurlRequstProvider"
+            ],
+            "aliases": {
+                "CurlReq": "Yang\\UploadTest\\Facade\\CurlFacade"
+            }
+        }
+    }
+}
